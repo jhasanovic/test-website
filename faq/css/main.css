@@ -1,0 +1,1355 @@
+undefined * {
+    line-height: 1
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 300
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.justify {
+    text-align: justify
+}
+
+.container {
+    max-width: 1140px;
+    width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto !important;
+    margin-left: auto !important
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    line-height: 1
+}
+
+body {
+    font-size: 0;
+    font-family: "Nunito Sans"
+}
+
+html {
+    font-size: 100%
+}
+
+input,
+textarea,
+select {
+    min-height: 20px;
+    border: 0;
+    font-size: 16px
+}
+
+.headerOne,
+.headerTwo,
+.headerThree,
+.headerFour,
+.headerFive,
+.headerSix,
+.paragraph {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0.1rem 0;
+    width: 100%
+}
+
+.lg-text-center-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: inherit;
+       object-fit: inherit;
+    border-radius: inherit
+}
+
+span {
+    display: block
+}
+
+.faq-elem-2:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-3:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-4:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-5:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-17:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-18:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-19:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-20:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-13:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-14:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-26:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-25:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-24:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-23:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-15:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-16:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.faq-elem-8 {
+    padding: 32px 16px 32px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 20px;
+    min-width: 20px;
+    position: relative;
+    display: flex
+}
+
+.faq-elem-7 {
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 1300px;
+    position: relative
+}
+
+.faq-elem-11 {
+    padding: 0px 16px 0px 16px;
+    justify-content: flex-end;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    min-width: 40%;
+    position: relative
+}
+
+.faq-elem-6 {
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-2 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-3 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-4 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-5 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-10 {
+    justify-content: center;
+    padding: 0px 16px 0px 16px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-1 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 72px;
+    height: 72px;
+    position: relative
+}
+
+.faq-elem-22 {
+    padding: 0px 16px 0px 16px;
+    justify-content: flex-start;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    min-width: 40%;
+    position: relative
+}
+
+.faq-elem-21 {
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-17 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-18 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-19 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-20 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-9 {
+    background: url(https://res.cloudinary.com/dbyioi2qq/q_auto/v1670831129/static/menu_cdsvg_1669271257_86278svg_1670831129_48688.svg) 50% 50% / 55% auto no-repeat no-repeat scroll border-box padding-box;
+    width: 50px;
+    height: 50px;
+    min-height: 20px;
+    min-width: 20px;
+    display: none;
+    position: relative
+}
+
+.faq-elem-12 {
+    padding: 32px 16px 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFEFEF;
+    z-index: 1;
+    top: 100px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: none;
+    position: absolute
+}
+
+.faq-elem-13 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-14 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-26 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-25 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-24 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-23 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-15 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-16 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-27 {
+    padding: 64px 0px 64px 0px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    position: relative
+}
+
+.faq-elem-29 {
+    -moz-column-gap: 62px;
+         column-gap: 62px;
+    row-gap: 42px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    max-width: 1100px;
+    position: relative
+}
+
+.faq-elem-30 {
+    flex-direction: column;
+    row-gap: 24px;
+    z-index: 1;
+    height: 735px;
+    width: 40%;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-28 {
+    font-family: Kumbh Sans;
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 60px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-50 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 720px;
+    position: relative
+}
+
+.faq-elem-31 {
+    flex-direction: column;
+    row-gap: 32px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 70%;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-32 {
+    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+    row-gap: 12px;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none solid none;
+    border-color: transparent transparent #AAA transparent;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-33 {
+    font-family: Kumbh Sans;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 38px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-34 {
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    display: block;
+    max-width: 700px;
+    position: relative
+}
+
+.faq-elem-49 {
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-47 {
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 26px;
+    padding: 0px 0px 0px 0px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-48 {
+    padding: 0px 0px 0px 10px;
+    color: #333;
+    font-size: 22px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 10px;
+    min-height: 10px;
+    display: block;
+    position: relative
+}
+
+.faq-elem-37 {
+    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+    row-gap: 12px;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none solid none;
+    border-color: transparent transparent #AAA transparent;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-35 {
+    font-family: Kumbh Sans;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 38px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-36 {
+    row-gap: 32px;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    display: block;
+    max-width: 700px;
+    position: relative
+}
+
+.faq-elem-46 {
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-44 {
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 26px;
+    padding: 0px 0px 0px 0px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-45 {
+    padding: 0px 0px 0px 10px;
+    color: #333;
+    font-size: 22px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 10px;
+    min-height: 10px;
+    display: block;
+    position: relative
+}
+
+.faq-elem-40 {
+    padding: 0px 0px 0px 0px;
+    flex-direction: column;
+    row-gap: 12px;
+    border-width: 0px 0px 0px 0px;
+    border-style: none none solid none;
+    border-color: transparent transparent # transparent;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-38 {
+    font-family: Kumbh Sans;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 38px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-39 {
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 30px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+    display: block;
+    max-width: 700px;
+    position: relative
+}
+
+.faq-elem-41 {
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.faq-elem-42 {
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 26px;
+    padding: 0px 0px 0px 0px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.faq-elem-43 {
+    padding: 0px 0px 0px 10px;
+    color: #333;
+    font-size: 22px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-width: 10px;
+    min-height: 10px;
+    display: block;
+    position: relative
+}
+
+@media and (min-width:1920px) {
+    .faq-elem-12 {
+        position: relative
+    }
+
+    @media {
+
+        .bg-colour-primary {
+            padding: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            text-align: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+
+        .font-family {
+            overflow: ;
+            flex-box: ;
+            flex-direction: ;
+            flex-wrap: ;
+            justify-content: ;
+            align-items: ;
+            -moz-column-gap: ;
+                 column-gap: ;
+            row-gap: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            padding: ;
+            text-align: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+
+        .hover-link-text:hover {
+            overflow: ;
+            flex-box: ;
+            flex-direction: ;
+            flex-wrap: ;
+            justify-content: ;
+            align-items: ;
+            -moz-column-gap: ;
+                 column-gap: ;
+            row-gap: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            padding: ;
+            text-align: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+
+        .hover-link-text {
+            overflow: ;
+            flex-box: ;
+            flex-direction: ;
+            flex-wrap: ;
+            justify-content: ;
+            align-items: ;
+            -moz-column-gap: ;
+                 column-gap: ;
+            row-gap: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            padding: ;
+            text-align: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+    }
+}
+
+.bg-colour-primary {
+    background-color: #4a90e2ff
+}
+
+.font-family {
+    font-family: Kumbh Sans
+}
+
+.hover-link-text:hover {
+    color: #be5857ff
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400
+}
+
+.font {
+    font-family: Kumbh Sans
+}

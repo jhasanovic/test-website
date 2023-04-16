@@ -1,0 +1,126 @@
+
+
+@media (max-width:1199px) and (min-width:768px) {
+    .products-elem-9:hover {
+        background-color: #00000019
+    }
+
+    .products-elem-7 {
+        padding: 0px 0px 0px 0px;
+        justify-content: space-between
+    }
+
+    .products-elem-11 {
+        display: none
+    }
+
+    .products-elem-6 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .products-elem-2 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-3 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-4 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-5 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-22 {
+        display: none
+    }
+
+    .products-elem-21 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .products-elem-17 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-18 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-19 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-20 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .products-elem-9 {
+        display: block
+    }
+
+    .products-elem-12 {
+        margin-top: 120px;
+        position: relative
+    }
+
+    .products-elem-13 {
+        justify-content: center;
+        align-items: center
+    }
+
+    .products-elem-14 {
+        justify-content: center
+    }
+
+    .products-elem-26 {
+        justify-content: center
+    }
+
+    .products-elem-25 {
+        justify-content: center
+    }
+
+    .products-elem-24 {
+        justify-content: center
+    }
+
+    .products-elem-23 {
+        justify-content: center
+    }
+
+    .products-elem-15 {
+        justify-content: center
+    }
+
+    .products-elem-16 {
+        justify-content: center
+    }
+}

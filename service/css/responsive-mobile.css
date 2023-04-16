@@ -1,0 +1,153 @@
+
+
+@media (max-width:767px) {
+    .service-elem-7 {
+        padding: 0px 0px 0px 0px;
+        justify-content: space-between
+    }
+
+    .service-elem-11 {
+        display: none
+    }
+
+    .service-elem-6 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .service-elem-2 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-3 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-4 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-5 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-22 {
+        display: none
+    }
+
+    .service-elem-21 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .service-elem-17 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-18 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-19 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-20 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .service-elem-9 {
+        display: block
+    }
+
+    .service-elem-12 {
+        margin-top: 120px;
+        position: relative
+    }
+
+    .service-elem-13 {
+        justify-content: center;
+        align-items: center
+    }
+
+    .service-elem-14 {
+        justify-content: center
+    }
+
+    .service-elem-26 {
+        justify-content: center
+    }
+
+    .service-elem-25 {
+        justify-content: center
+    }
+
+    .service-elem-24 {
+        justify-content: center
+    }
+
+    .service-elem-23 {
+        justify-content: center
+    }
+
+    .service-elem-15 {
+        justify-content: center
+    }
+
+    .service-elem-16 {
+        justify-content: center
+    }
+
+    .service-elem-29 {
+        font-size: 25px;
+        line-height: 35px
+    }
+
+    .service-elem-30 {
+        line-height: 26px
+    }
+
+    .service-elem-31 {
+        display: none
+    }
+
+    .service-elem-32 {
+        flex-direction: column;
+        row-gap: 32px;
+        width: 100%
+    }
+
+    .service-elem-33 {
+        min-width: 20px
+    }
+
+    .service-elem-37 {
+        min-width: 20px
+    }
+
+    .service-elem-41 {
+        min-width: 20px
+    }
+}

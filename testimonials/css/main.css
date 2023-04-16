@@ -1,0 +1,1706 @@
+undefined * {
+    line-height: 1
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 300
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.justify {
+    text-align: justify
+}
+
+.container {
+    max-width: 1140px;
+    width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto !important;
+    margin-left: auto !important
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .container {
+        max-width: 960px
+    }
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    line-height: 1
+}
+
+body {
+    font-size: 0;
+    font-family: "Nunito Sans"
+}
+
+html {
+    font-size: 100%
+}
+
+input,
+textarea,
+select {
+    min-height: 20px;
+    border: 0;
+    font-size: 16px
+}
+
+.headerOne,
+.headerTwo,
+.headerThree,
+.headerFour,
+.headerFive,
+.headerSix,
+.paragraph {
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0.1rem 0;
+    width: 100%
+}
+
+.lg-text-center-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a,
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: inherit;
+       object-fit: inherit;
+    border-radius: inherit
+}
+
+span {
+    display: block
+}
+
+.testimonials-elem-2:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-3:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-4:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-5:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-17:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-18:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-19:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-20:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-13:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-14:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-26:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-25:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-24:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-23:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-15:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-16:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.testimonials-elem-8 {
+    padding: 32px 16px 32px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 20px;
+    min-width: 20px;
+    position: relative;
+    display: flex
+}
+
+.testimonials-elem-7 {
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 1300px;
+    position: relative
+}
+
+.testimonials-elem-11 {
+    padding: 0px 16px 0px 16px;
+    justify-content: flex-end;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    min-width: 40%;
+    position: relative
+}
+
+.testimonials-elem-6 {
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-2 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-3 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-4 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-5 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-10 {
+    justify-content: center;
+    padding: 0px 16px 0px 16px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-1 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 72px;
+    height: 72px;
+    position: relative
+}
+
+.testimonials-elem-22 {
+    padding: 0px 16px 0px 16px;
+    justify-content: flex-start;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    min-width: 40%;
+    position: relative
+}
+
+.testimonials-elem-21 {
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-17 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-18 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-19 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-20 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-9 {
+    background: url(https://res.cloudinary.com/dbyioi2qq/q_auto/v1670831129/static/menu_cdsvg_1669271257_86278svg_1670831129_48688.svg) 50% 50% / 55% auto no-repeat no-repeat scroll border-box padding-box;
+    width: 50px;
+    height: 50px;
+    min-height: 20px;
+    min-width: 20px;
+    display: none;
+    position: relative
+}
+
+.testimonials-elem-12 {
+    padding: 32px 16px 32px 16px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFEFEF;
+    z-index: 1;
+    top: 100px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: none;
+    position: absolute
+}
+
+.testimonials-elem-13 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-14 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-26 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-25 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-24 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-23 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-15 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-16 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-136 {
+    padding: 20px 16px 100px 16px;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    max-width: 1980px;
+    min-height: 100vh;
+    margin-right: auto;
+    position: relative
+}
+
+.testimonials-elem-137 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: 800px;
+    position: relative
+}
+
+.testimonials-elem-138 {
+    font-family: Kumbh Sans;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 40px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-139 {
+    font-family: Kumbh Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 28px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-140 {
+    padding: 50px 0px 0px 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    -moz-column-gap: 39px;
+         column-gap: 39px;
+    row-gap: 39px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: NaNpx;
+    position: relative
+}
+
+.testimonials-elem-141 {
+    flex-direction: column;
+    row-gap: 15px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: 380px;
+    position: relative
+}
+
+.testimonials-elem-142 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 26px;
+    padding: 20px 20px 20px 20px;
+    opacity: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: NaNpx
+}
+
+.testimonials-elem-143 {
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-144 {
+    border-radius: 100% 100% 100% 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative
+}
+
+.testimonials-elem-145 {
+    flex-direction: column;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-146 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-147 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-154 {
+    flex-direction: column;
+    row-gap: 15px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: 380px;
+    position: relative
+}
+
+.testimonials-elem-148 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 26px;
+    padding: 20px 20px 20px 20px;
+    opacity: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: NaNpx
+}
+
+.testimonials-elem-153 {
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-149 {
+    border-radius: 100% 100% 100% 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative
+}
+
+.testimonials-elem-152 {
+    flex-direction: column;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-150 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-151 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-161 {
+    flex-direction: column;
+    row-gap: 15px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: 380px;
+    position: relative
+}
+
+.testimonials-elem-155 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 26px;
+    padding: 20px 20px 20px 20px;
+    opacity: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: NaNpx
+}
+
+.testimonials-elem-160 {
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-156 {
+    border-radius: 100% 100% 100% 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative
+}
+
+.testimonials-elem-159 {
+    flex-direction: column;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-157 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-158 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-182 {
+    flex-direction: column;
+    row-gap: 15px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: 380px;
+    position: relative
+}
+
+.testimonials-elem-176 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 26px;
+    padding: 20px 20px 20px 20px;
+    opacity: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: NaNpx
+}
+
+.testimonials-elem-181 {
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-177 {
+    border-radius: 100% 100% 100% 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative
+}
+
+.testimonials-elem-180 {
+    flex-direction: column;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-178 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-179 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-175 {
+    flex-direction: column;
+    row-gap: 15px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: 380px;
+    position: relative
+}
+
+.testimonials-elem-169 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 26px;
+    padding: 20px 20px 20px 20px;
+    opacity: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: NaNpx
+}
+
+.testimonials-elem-174 {
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-170 {
+    border-radius: 100% 100% 100% 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative
+}
+
+.testimonials-elem-173 {
+    flex-direction: column;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-171 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-172 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-168 {
+    flex-direction: column;
+    row-gap: 15px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    max-width: 380px;
+    position: relative
+}
+
+.testimonials-elem-162 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 26px;
+    padding: 20px 20px 20px 20px;
+    opacity: 100%;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: NaNpx
+}
+
+.testimonials-elem-167 {
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+    z-index: 1;
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-163 {
+    border-radius: 100% 100% 100% 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50px;
+    height: 50px;
+    position: relative
+}
+
+.testimonials-elem-166 {
+    flex-direction: column;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-164 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-165 {
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 24px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+@media and (min-width:1920px) {
+    .testimonials-elem-12 {
+        position: relative
+    }
+
+    @media {
+
+        .bg-colour-primary {
+            padding: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            text-align: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+
+        .font-family {
+            overflow: ;
+            flex-box: ;
+            flex-direction: ;
+            flex-wrap: ;
+            justify-content: ;
+            align-items: ;
+            -moz-column-gap: ;
+                 column-gap: ;
+            row-gap: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            padding: ;
+            text-align: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+
+        .hover-link-text:hover {
+            overflow: ;
+            flex-box: ;
+            flex-direction: ;
+            flex-wrap: ;
+            justify-content: ;
+            align-items: ;
+            -moz-column-gap: ;
+                 column-gap: ;
+            row-gap: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            padding: ;
+            text-align: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+
+        .hover-link-text {
+            overflow: ;
+            flex-box: ;
+            flex-direction: ;
+            flex-wrap: ;
+            justify-content: ;
+            align-items: ;
+            -moz-column-gap: ;
+                 column-gap: ;
+            row-gap: ;
+            font-family: ;
+            font-size-weight: ;
+            font-size: ;
+            font-weight: ;
+            color: ;
+            -ms-text-spacing: ;
+                text-spacing: ;
+            letter-spacing: ;
+            line-height: ;
+            padding: ;
+            text-align: ;
+            background: ;
+            background-color: ;
+            box-shadow: ;
+            border: ;
+            border-radius: ;
+            border-width: ;
+            border-style: ;
+            border-color: ;
+            effects: ;
+            opacity: ;
+            flex-box-child: ;
+            order: ;
+            flex-grow: ;
+            flex-shrink: ;
+            flex-basis: ;
+            align-self:
+        }
+    }
+}
+
+.bg-colour-primary {
+    background-color: #4a90e2ff
+}
+
+.font-family {
+    font-family: Kumbh Sans
+}
+
+.hover-link-text:hover {
+    color: #be5857ff
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400
+}
+
+.font {
+    font-family: Kumbh Sans
+}

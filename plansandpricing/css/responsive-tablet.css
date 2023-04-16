@@ -1,0 +1,170 @@
+
+
+@media (max-width:1199px) and (min-width:768px) {
+    .plansandpricing-elem-9:hover {
+        background-color: #00000019
+    }
+
+    .plansandpricing-elem-7 {
+        padding: 0px 0px 0px 0px;
+        justify-content: space-between
+    }
+
+    .plansandpricing-elem-11 {
+        display: none
+    }
+
+    .plansandpricing-elem-6 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .plansandpricing-elem-2 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-3 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-4 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-5 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-22 {
+        display: none
+    }
+
+    .plansandpricing-elem-21 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .plansandpricing-elem-17 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-18 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-19 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-20 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .plansandpricing-elem-9 {
+        display: block
+    }
+
+    .plansandpricing-elem-12 {
+        margin-top: 120px;
+        position: relative
+    }
+
+    .plansandpricing-elem-13 {
+        justify-content: center;
+        align-items: center
+    }
+
+    .plansandpricing-elem-14 {
+        justify-content: center
+    }
+
+    .plansandpricing-elem-26 {
+        justify-content: center
+    }
+
+    .plansandpricing-elem-25 {
+        justify-content: center
+    }
+
+    .plansandpricing-elem-24 {
+        justify-content: center
+    }
+
+    .plansandpricing-elem-23 {
+        justify-content: center
+    }
+
+    .plansandpricing-elem-15 {
+        justify-content: center
+    }
+
+    .plansandpricing-elem-16 {
+        justify-content: center
+    }
+
+    .plansandpricing-elem-57 {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .plansandpricing-elem-35 {
+        width: 46%
+    }
+
+    .plansandpricing-elem-42 {
+        width: 46%
+    }
+
+    .plansandpricing-elem-49 {
+        width: 46%
+    }
+
+    .plansandpricing-elem-56 {
+        width: 46%
+    }
+
+    .plansandpricing-elem-93 {
+        padding: 0px 16px 0px 16px;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: baseline;
+        -moz-column-gap: 12px;
+             column-gap: 12px;
+        row-gap: 12px;
+        max-width: 1150px
+    }
+
+    .plansandpricing-elem-64 {
+        padding: 16px 16px 16px 16px;
+        -moz-column-gap: 12px;
+             column-gap: 12px
+    }
+
+    .plansandpricing-elem-63 {
+        flex-wrap: wrap-reverse;
+        max-width: 1150px
+    }
+}

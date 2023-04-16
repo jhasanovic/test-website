@@ -1,0 +1,153 @@
+
+
+@media (max-width:1199px) and (min-width:768px) {
+    .faq-elem-9:hover {
+        background-color: #00000019
+    }
+
+    .faq-elem-7 {
+        padding: 0px 0px 0px 0px;
+        justify-content: space-between
+    }
+
+    .faq-elem-11 {
+        display: none
+    }
+
+    .faq-elem-6 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .faq-elem-2 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-3 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-4 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-5 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-22 {
+        display: none
+    }
+
+    .faq-elem-21 {
+        padding: 32px 16px 32px 16px;
+        flex-direction: row;
+        align-items: center;
+        display: none
+    }
+
+    .faq-elem-17 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-18 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-19 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-20 {
+        justify-content: center;
+        width: 100%;
+        display: flex
+    }
+
+    .faq-elem-9 {
+        display: block
+    }
+
+    .faq-elem-12 {
+        margin-top: 120px;
+        position: relative
+    }
+
+    .faq-elem-13 {
+        justify-content: center;
+        align-items: center
+    }
+
+    .faq-elem-14 {
+        justify-content: center
+    }
+
+    .faq-elem-26 {
+        justify-content: center
+    }
+
+    .faq-elem-25 {
+        justify-content: center
+    }
+
+    .faq-elem-24 {
+        justify-content: center
+    }
+
+    .faq-elem-23 {
+        justify-content: center
+    }
+
+    .faq-elem-15 {
+        justify-content: center
+    }
+
+    .faq-elem-16 {
+        justify-content: center
+    }
+
+    .faq-elem-29 {
+        flex-direction: column
+    }
+
+    .faq-elem-30 {
+        width: 100%
+    }
+
+    .faq-elem-31 {
+        width: 100%
+    }
+
+    .faq-elem-48 {
+        width: auto;
+        height: auto
+    }
+
+    .faq-elem-45 {
+        width: auto;
+        height: auto
+    }
+
+    .faq-elem-43 {
+        width: auto;
+        height: auto
+    }
+}
