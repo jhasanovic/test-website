@@ -1704,3 +1704,51 @@ span {
 .font {
     font-family: Kumbh Sans
 }
+
+.about-elem-999 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+.about-elem-99 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000bf;
+    line-height: 26px;
+    padding: 12px 16px 12px 16px;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.about-elem-99:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
+
+.about-elem-999:hover {
+    color: #000000ff;
+    background-color: #00000019
+}
