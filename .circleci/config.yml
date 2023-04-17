@@ -13,7 +13,7 @@ jobs:
           name: install dependencies
           command: |
             npm install
-            npm install --save-dev @percy/cli
+            npm install @percy/cli --save-dev --save-exact --unsafe-perm=true --allow-root
 
       - run:
           name: run tests
