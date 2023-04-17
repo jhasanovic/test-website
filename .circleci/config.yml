@@ -13,7 +13,7 @@ jobs:
           name: install dependencies
           command: |
             npm install
-            npm instal percy-cli
+            npm install percy-cli
 
       - run:
           name: run tests
