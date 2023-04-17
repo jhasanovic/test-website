@@ -20,13 +20,4 @@ jobs:
           name: run tests
           command: |
             npm run build
-            percy snapshot about
-            percy snapshot blog
-            percy snapshot contact
-            percy snapshot faq
-            percy snapshot pagenotfound
-            percy snapshot plansandpricing
-            percy snapshot products
-            percy snapshot service
-            percy snapshot testimonials
-            percy snapshot index.html
+            percy snapshot pages
