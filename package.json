@@ -21,7 +21,7 @@
     "bugs": {
       "url": "https://github.com/jhasanovic/test-website"
     },
-    "homepage": "https://github.com/jhasanovic/test-website/pages",
+    "homepage": "https://github.com/jhasanovic/test-website",
     "devDependencies": {
       "@11ty/eleventy": "^2.0.0-beta.3",
       "@11ty/eleventy-navigation": "^0.3.5",
