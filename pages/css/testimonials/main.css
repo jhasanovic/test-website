@@ -792,62 +792,147 @@ span {
     position: relative
 }
 
-.testimonials-elem-136 {
-    padding: 20px 16px 100px 16px;
-    flex-direction: column;
-    align-items: center;
+.testimonials-elem-245 {
+    padding: 100px 16px 100px 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+    row-gap: 30px;
     z-index: 1;
+    margin-left: auto;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     width: 100%;
     display: flex;
-    margin-left: auto;
-    max-width: 1980px;
-    min-height: 100vh;
+    max-width: 1440px;
     margin-right: auto;
     position: relative
 }
 
-.testimonials-elem-137 {
+.testimonials-elem-246 {
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    row-gap: 15px;
+    row-gap: 30px;
+    box-shadow: 0px 0px 0px 0px #000000;
     z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    max-width: 800px;
-    position: relative
-}
-
-.testimonials-elem-138 {
-    font-family: Kumbh Sans;
-    font-size: 30px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 40px;
-    text-align: center;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
     position: relative
 }
 
-.testimonials-elem-139 {
-    font-family: Kumbh Sans;
+.testimonials-elem-247 {
+    border-radius: 100px 100px 100px 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    max-width: 200px
+}
+
+.testimonials-elem-270 {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+    align-items: center;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-248 {
+    font-family: Work Sans;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #000000;
     line-height: 28px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-249 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4949ff;
+    line-height: 26px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative;
+    max-width: 300px
+}
+
+.testimonials-elem-271 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-250 {
+    align-items: center;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-251 {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 60px;
+    height: 60px;
+    position: relative
+}
+
+.testimonials-elem-252 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4949ff;
+    line-height: 26px;
     text-align: center;
     opacity: 100%;
     z-index: 1;
@@ -863,43 +948,93 @@ span {
     position: relative
 }
 
-.testimonials-elem-140 {
-    padding: 50px 0px 0px 0px;
-    flex-direction: row;
-    flex-wrap: wrap;
+.testimonials-elem-255 {
+    align-items: center;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-253 {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 60px;
+    height: 60px;
+    position: relative
+}
+
+.testimonials-elem-254 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4949ff;
+    line-height: 26px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-262 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    position: relative
+}
+
+.testimonials-elem-256 {
+    border-radius: 100px 100px 100px 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 200px;
+    height: 200px;
+    position: relative
+}
+
+.testimonials-elem-272 {
+    flex-direction: column;
     justify-content: center;
-    -moz-column-gap: 39px;
-         column-gap: 39px;
-    row-gap: 39px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    max-width: NaNpx;
-    position: relative
-}
-
-.testimonials-elem-141 {
-    flex-direction: column;
     row-gap: 15px;
+    align-items: center;
     z-index: 1;
-    height: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 100%;
     display: flex;
-    max-width: 380px;
     position: relative
 }
 
-.testimonials-elem-142 {
-    font-family: Nunito Sans;
-    font-size: 16px;
-    font-weight: 400;
+.testimonials-elem-257 {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
     color: #000000;
-    line-height: 26px;
-    padding: 20px 20px 20px 20px;
+    line-height: 28px;
     opacity: 100%;
-    background-color: #f5f5f5;
-    border-radius: 10px 10px 10px 10px;
     z-index: 1;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -910,33 +1045,88 @@ span {
     display: block;
     min-height: 10px;
     min-width: 16px;
-    position: relative;
-    max-width: NaNpx
+    position: relative
 }
 
-.testimonials-elem-143 {
-    flex-direction: row;
-    align-items: center;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
+.testimonials-elem-258 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4949ff;
+    line-height: 26px;
+    text-align: center;
+    opacity: 100%;
     z-index: 1;
-    height: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-273 {
+    flex-direction: column;
+    row-gap: 15px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 100%;
     display: flex;
     position: relative
 }
 
-.testimonials-elem-144 {
-    border-radius: 100% 100% 100% 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 50px;
-    height: 50px;
+.testimonials-elem-261 {
+    align-items: center;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
     position: relative
 }
 
-.testimonials-elem-145 {
+.testimonials-elem-259 {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 60px;
+    height: 60px;
+    position: relative
+}
+
+.testimonials-elem-260 {
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4949ff;
+    line-height: 26px;
+    text-align: center;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-269 {
     flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
     z-index: 1;
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -947,120 +1137,56 @@ span {
     position: relative
 }
 
-.testimonials-elem-146 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
+.testimonials-elem-263 {
+    border-radius: 100px 100px 100px 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 200px;
+    height: 200px;
     position: relative
 }
 
-.testimonials-elem-147 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-154 {
+.testimonials-elem-274 {
     flex-direction: column;
+    justify-content: center;
     row-gap: 15px;
+    align-items: center;
     z-index: 1;
-    height: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 100%;
     display: flex;
-    max-width: 380px;
     position: relative
 }
 
-.testimonials-elem-148 {
+.testimonials-elem-264 {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 28px;
+    opacity: 100%;
+    z-index: 1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    min-height: 10px;
+    min-width: 16px;
+    position: relative
+}
+
+.testimonials-elem-265 {
     font-family: Nunito Sans;
     font-size: 16px;
     font-weight: 400;
-    color: #000000;
+    color: #4f4949ff;
     line-height: 26px;
-    padding: 20px 20px 20px 20px;
-    opacity: 100%;
-    background-color: #f5f5f5;
-    border-radius: 10px 10px 10px 10px;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative;
-    max-width: NaNpx
-}
-
-.testimonials-elem-153 {
-    flex-direction: row;
-    align-items: center;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    position: relative
-}
-
-.testimonials-elem-149 {
-    border-radius: 100% 100% 100% 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 50px;
-    height: 50px;
-    position: relative
-}
-
-.testimonials-elem-152 {
-    flex-direction: column;
-    z-index: 1;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    max-width: 300px;
-    position: relative
-}
-
-.testimonials-elem-150 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 24px;
+    text-align: center;
     opacity: 100%;
     z-index: 1;
     width: -webkit-fit-content;
@@ -1075,444 +1201,47 @@ span {
     position: relative
 }
 
-.testimonials-elem-151 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-161 {
+.testimonials-elem-275 {
     flex-direction: column;
     row-gap: 15px;
     z-index: 1;
-    height: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     width: 100%;
     display: flex;
-    max-width: 380px;
     position: relative
 }
 
-.testimonials-elem-155 {
+.testimonials-elem-268 {
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 15px;
+         column-gap: 15px;
+    z-index: 1;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    position: relative
+}
+
+.testimonials-elem-266 {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 60px;
+    height: 60px;
+    position: relative
+}
+
+.testimonials-elem-267 {
     font-family: Nunito Sans;
     font-size: 16px;
     font-weight: 400;
-    color: #000000;
+    color: #4f4949ff;
     line-height: 26px;
-    padding: 20px 20px 20px 20px;
-    opacity: 100%;
-    background-color: #f5f5f5;
-    border-radius: 10px 10px 10px 10px;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative;
-    max-width: NaNpx
-}
-
-.testimonials-elem-160 {
-    flex-direction: row;
-    align-items: center;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    position: relative
-}
-
-.testimonials-elem-156 {
-    border-radius: 100% 100% 100% 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 50px;
-    height: 50px;
-    position: relative
-}
-
-.testimonials-elem-159 {
-    flex-direction: column;
-    z-index: 1;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    max-width: 300px;
-    position: relative
-}
-
-.testimonials-elem-157 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-158 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-182 {
-    flex-direction: column;
-    row-gap: 15px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    max-width: 380px;
-    position: relative
-}
-
-.testimonials-elem-176 {
-    font-family: Nunito Sans;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-    line-height: 26px;
-    padding: 20px 20px 20px 20px;
-    opacity: 100%;
-    background-color: #f5f5f5;
-    border-radius: 10px 10px 10px 10px;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative;
-    max-width: NaNpx
-}
-
-.testimonials-elem-181 {
-    flex-direction: row;
-    align-items: center;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    position: relative
-}
-
-.testimonials-elem-177 {
-    border-radius: 100% 100% 100% 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 50px;
-    height: 50px;
-    position: relative
-}
-
-.testimonials-elem-180 {
-    flex-direction: column;
-    z-index: 1;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    max-width: 300px;
-    position: relative
-}
-
-.testimonials-elem-178 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-179 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-175 {
-    flex-direction: column;
-    row-gap: 15px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    max-width: 380px;
-    position: relative
-}
-
-.testimonials-elem-169 {
-    font-family: Nunito Sans;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-    line-height: 26px;
-    padding: 20px 20px 20px 20px;
-    opacity: 100%;
-    background-color: #f5f5f5;
-    border-radius: 10px 10px 10px 10px;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative;
-    max-width: NaNpx
-}
-
-.testimonials-elem-174 {
-    flex-direction: row;
-    align-items: center;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    position: relative
-}
-
-.testimonials-elem-170 {
-    border-radius: 100% 100% 100% 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 50px;
-    height: 50px;
-    position: relative
-}
-
-.testimonials-elem-173 {
-    flex-direction: column;
-    z-index: 1;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    max-width: 300px;
-    position: relative
-}
-
-.testimonials-elem-171 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-172 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-168 {
-    flex-direction: column;
-    row-gap: 15px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    max-width: 380px;
-    position: relative
-}
-
-.testimonials-elem-162 {
-    font-family: Nunito Sans;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-    line-height: 26px;
-    padding: 20px 20px 20px 20px;
-    opacity: 100%;
-    background-color: #f5f5f5;
-    border-radius: 10px 10px 10px 10px;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative;
-    max-width: NaNpx
-}
-
-.testimonials-elem-167 {
-    flex-direction: row;
-    align-items: center;
-    -moz-column-gap: 10px;
-         column-gap: 10px;
-    z-index: 1;
-    height: auto;
-    width: 100%;
-    display: flex;
-    position: relative
-}
-
-.testimonials-elem-163 {
-    border-radius: 100% 100% 100% 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-    width: 50px;
-    height: 50px;
-    position: relative
-}
-
-.testimonials-elem-166 {
-    flex-direction: column;
-    z-index: 1;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    width: 100%;
-    display: flex;
-    max-width: 300px;
-    position: relative
-}
-
-.testimonials-elem-164 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 600;
-    color: #000000;
-    line-height: 24px;
-    opacity: 100%;
-    z-index: 1;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-    display: block;
-    min-height: 10px;
-    min-width: 16px;
-    position: relative
-}
-
-.testimonials-elem-165 {
-    font-family: Kumbh Sans;
-    font-size: 14px;
-    font-weight: 300;
-    color: #000000;
-    line-height: 24px;
+    text-align: center;
     opacity: 100%;
     z-index: 1;
     width: -webkit-fit-content;
