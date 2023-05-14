@@ -316,7 +316,7 @@ span {
 }
 
 .pagenotfound-elem-1 {
-    font-family: Josefin Sans;
+    font-family: Work Sans;
     font-size: 41px;
     font-weight: 700;
     color: #000000;
@@ -352,12 +352,13 @@ span {
     min-height: 10px;
     min-width: 16px;
     position: relative;
-    max-width: 720px
+    max-width: 720px;
+    padding-left: 40px;
 }
 
 .pagenotfound-elem-4 {
     padding: 16px 16px 16px 16px;
-    background-color: #4a90e2ff;
+    background-color:darkseagreen;
     border-radius: 50px 50px 50px 50px;
     border-width: 0px 0px 0px 0px;
     border-style: groove groove groove groove;

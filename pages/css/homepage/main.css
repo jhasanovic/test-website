@@ -795,7 +795,7 @@ span {
 .homepage-elem-27 {
     justify-content: center;
     align-items: stretch;
-    background-image: linear-gradient(90deg, rgb(215, 207, 154)0%, rgb(86, 119, 132)0%, rgba(0, 0, 0, 0)69.19999999999999%), url(https://res.cloudinary.com/dbyioi2qq/q_auto/v1681489797/static/photo_5084075_1681489797_49815.jpg);
+    background-image: linear-gradient(90deg, rgb(215, 207, 154)0%, rgb(86, 119, 132)0%, rgba(0, 0, 0, 0)69.19999999999999%), url(https://images.pexels.com/photos/210726/pexels-photo-210726.jpeg);
     background-position: 0% 0%, 0% 0%;
     background-size: auto, cover;
     background-repeat: no-repeat no-repeat, no-repeat no-repeat;
@@ -843,7 +843,7 @@ span {
     font-family: Josefin Sans;
     font-size: 42px;
     font-weight: 600;
-    color: #FFF;
+    color: #000000;
     line-height: 52px;
     width: -webkit-fit-content;
     width: -moz-fit-content;

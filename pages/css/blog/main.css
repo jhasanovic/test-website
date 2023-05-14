@@ -876,8 +876,8 @@ span {
     padding: 50px 0px 0px 0px;
     flex-direction: row;
     flex-wrap: wrap;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+    -moz-column-gap: 5px;
+         column-gap: 5px;
     row-gap: 20px;
     z-index: 1;
     height: auto;

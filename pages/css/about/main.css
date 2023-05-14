@@ -941,13 +941,14 @@ span {
 }
 
 .about-elem-31 {
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 4px;
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
     height: 300px;
     position: relative;
-    max-width: 500px
+    max-width: 500px;
+    opacity: 95%;
 }
 
 .about-elem-33 {
@@ -989,7 +990,7 @@ span {
     font-weight: 400;
     color: #000000a8;
     line-height: 30px;
-    padding: 50px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
     opacity: 100%;
     z-index: 1;
     width: 100%;
